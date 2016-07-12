@@ -1,0 +1,16 @@
+import java.io.*;
+
+class printing{
+
+    public static void main(String args[])
+    {
+        DataInputStream d= new DataInputStream(System.in);
+        
+        int j = d.readLine();
+        
+        System.out.println("Output is : "+d);
+    
+    
+    }
+
+}
